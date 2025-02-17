@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+pip install -r /tmp/src/requirements.txt
+cp -R /tmp/src /opt/app-root/src
